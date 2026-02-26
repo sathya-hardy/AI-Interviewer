@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "Bash(rm:*)",
+      "Bash(npx craco:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(npx:*)",
+      "Bash(\"/mnt/c/Program Files/nodejs/node.exe\":*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
