@@ -121,20 +121,6 @@ The app opens at **http://localhost:3000**.
 
 ---
 
-## Design
-
-The UI follows a **"Warm Dark Editorial"** aesthetic — a premium, confident feel inspired by high-end career platforms:
-
-- **Dark charcoal base** with layered transparent surfaces (glass morphism)
-- **Amber/gold primary accent** for CTAs, progress, and scores — connotes achievement
-- **Teal secondary accent** for completed states and status indicators
-- **Animated mesh gradients** and noise texture for atmospheric depth
-- **SVG ring score visualizations** with radial glow effects
-- **Staggered reveal animations** for a polished, cinematic feel
-- **Sora display font** for headings, Inter for body text
-
----
-
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -158,8 +144,3 @@ questions   (id SERIAL, session_id, question TEXT)
 answers     (id SERIAL, session_id, question_id, answer TEXT, score INT, feedback TEXT, tips TEXT[])
 ```
 
----
-
-## License
-
-MIT
